@@ -11,14 +11,16 @@ export const PublicRoute = ({
 }) => {
 
     return (
-        <Route { ...rest }
-            component={ (props) => (
-                ( isAuthenticated )
-                    ? ( <Redirect to="/" /> )
-                    : ( <Component { ...props } /> )
-            )}
-        
-        />
+        <div>
+            <Route {...rest}
+                component={(props) => (
+                    (isAuthenticated)
+                        ? (<Redirect to="/" />)
+                        : (<Component {...props} />)
+                )}
+
+            />
+        </div>
     )
 }
 

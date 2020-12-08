@@ -9,7 +9,7 @@ import { startRegisterWithEmailAndPassword } from '../../actions/auth';
 export const RegisterScreen = () => {
 
     const dispatch = useDispatch();
-    const [values, handleInputChange] = useForm({ nombre: 'claudio', email: 'claudio_ceja009@hotmail.com', password: '123456', password2: '123456' });
+    const [values, handleInputChange] = useForm({ nombre: '', email: '', password: '', password2: '' });
     const { nombre, email, password, password2 } = values;
     const { msgError } = useSelector(state => state.ui);
 

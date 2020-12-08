@@ -62,7 +62,6 @@ export const AppRouter = () => {
                         component={AuthRouter}
                         isAuthenticated={isLoggedIn}
                     />
-
                     <PrivateRoute
                         exact
                         isAuthenticated={isLoggedIn}
