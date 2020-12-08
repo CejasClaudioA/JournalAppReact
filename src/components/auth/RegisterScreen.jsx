@@ -50,7 +50,7 @@ export const RegisterScreen = () => {
                 <input className="auth__input" type="password" placeholder="Password" name="password" value={password} onChange={handleInputChange} />
                 <input className="auth__input" type="password" placeholder="Confirmar Password" name="password2" value={password2} onChange={handleInputChange} />
                 <button className="btn btn-primary btn-block mb-5" type="submit">Registrarse</button>
-                <Link className="link mt-5" to="/auth/login"> Ya estás registrado?</Link>
+                <Link className="link mt-5" to="/JournalAppReact/auth/login"> Ya estás registrado?</Link>
             </form>
         </>
     )

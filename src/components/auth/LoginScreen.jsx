@@ -42,7 +42,7 @@ export const LoginScreen = () => {
                     </div>
                 </div>
 
-                <Link className="link" to="/auth/register"> Registarse</Link>
+                <Link className="link" to="/JournalAppReact/auth/register"> Registarse</Link>
             </form>
         </>
     )

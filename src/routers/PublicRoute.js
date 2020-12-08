@@ -15,7 +15,7 @@ export const PublicRoute = ({
             <Route {...rest}
                 component={(props) => (
                     (isAuthenticated)
-                        ? (<Redirect to="/" />)
+                        ? (<Redirect to="/JournalAppReact/" />)
                         : (<Component {...props} />)
                 )}
 
